@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    <bean id="javacol" class="com.tutorialspoint.JavaCollections">
+    <property name="list">
+    <list>
+    <value>India</value>
+    <ref bean="city"></ref>
+    <value>Pakistan</value>
+    </list>
+    </property>
+    <property name="set">
+    <set>
+    <value>USA</value>
+    <ref bean="city"></ref>
+    <value>Canada</value>
+    </set>
+    </property>
+    <property name="map">
+    <map>
+    <entry key="1" value="China"/>
+    <entry key="2" value="Japan"/>
+    <entry key="3" value-ref="country"/>
+    </map>
+    </property>
+    <property name="properties">
+    <props>
+    <prop key="1">England</prop>
+    <prop key="2">Spain</prop>
+    </props>
+    </property>
+    </bean>
+    <bean id="city" class="com.tutorialspoint.CountryClass"></bean>
+    </beans>

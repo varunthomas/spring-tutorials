@@ -1,0 +1,8 @@
+package com.tutorialspoint;
+
+public class CountryClass {
+
+	public CountryClass(){
+		System.out.println("Inside countryclass");
+	}
+}

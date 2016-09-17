@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.tutorialspoint.HelloWorld"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.BeanPostProcessor"/>
+<fullyQualifiedTypeName name="org.springframework.beans.BeansException"/>
+<fullyQualifiedTypeName name="com.tutorialspoint.ChildClass"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="com.tutorialspoint.JavaCollections"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.tutorialspoint.KeyBoard"/>
+</qualifiedTypeNameHistroy>
